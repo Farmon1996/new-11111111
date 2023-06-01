@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(black, white);
+    /*animation: animate 2s infinite;*/
+}
+
+.card {
+    background: linear-gradient(blue, white);
+}
+
+.site-form {
+    padding: 20px;
+    display: block;
+    margin: 70px auto auto;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.site-form label {
+    color: black;
+    font-size: 20px;
+}
+
+.site-form input {
+    width: 100%;
+    height: 25px;
+}
+
+.site-form textarea {
+    width: 100%;
+}
+
+#thumb-clear_id {
+    display: none;
+}
+
+label[for="thumb-clear_id"] {
+    display: none;
+}
+
+@keyframes animate {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: black;
+    }
+    100%{
+        background-color: blue;
+    }
+}
+
+.helptext, .helptext.ul {
+    margin: 0 auto 20px;
+    color: grey;
+    font-size: 15px;
+    display: block;
+}
+
+.errorlist {
+    padding: 10px;
+    list-style: none;
+    color: red;
+}
+.comment label[for="id_body"] {
+   display: none;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
